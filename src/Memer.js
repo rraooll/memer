@@ -62,19 +62,23 @@ class Memer extends Component {
                     <button onClick={this.handleClick}>Generate!</button>
                 </div>
                 <div className="meme">
+                 
                     <h2
                         style={{ fontSize: Number(this.state.font_size) }}
                         className="top"
                     >
                         {this.state.topText}
                     </h2>
+                   
                     <img src={this.state.randomImg} alt="" />
+                  
                     <h2
                         style={{ fontSize: Number(this.state.font_size) }}
                         className="bottom"
                     >
                         {this.state.bottomText}
                     </h2>
+                    
                 </div>
             </div>
         );
